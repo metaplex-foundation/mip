@@ -155,11 +155,9 @@ In the examples above you can see that V1 NonFungible maps to the V1NFT interfac
 ## Integration TL;DR for `ProgrammableNonFungible` assets
 
 1. Transfer instructions (and other spl-token instructions) are now sent to Token Metadata instead.
-2. The `rules_account` can be easily discovered on chain using account derivation or via the Metaplex Read API, an RPC indexing extension run by many existing RPC providers.
-3. TokenMetadata will expose new instructions under a new simplified API.
-    1. For example `CreateMetadataAccount` and  `UpdateMetadata` are replaced with `mint` and `update`
-    2. These instructions take versioned payloads, this makes it easier to adopt updates and maintain the code
-        1. For Example `MintV1 {...}` , `MintV2`
+2. Token Metadata will expose new versioned instructions under a simplified API. Spl-token proxy instructions are close to the existing instruction interface with the addition of a new required `rules_account` argument.
+    1. `CreateMetadataAccount` and  `UpdateMetadata` are replaced with `mint` and `update`
+3. The `rules_account` can be easily discovered on chain using account derivation or via the Metaplex Read API, an RPC indexing extension run by many existing RPC providers.
 
 ### Discovering Rules Account
 
