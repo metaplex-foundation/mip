@@ -585,7 +585,7 @@ This approach would provide a way for NFT collections to access open liquidity w
 
 As part of the new Sale Delegate instruction, Metaplex could add ways to allow any program to execute the sale, effectively creating a shared global liquidity pool for listed NFTs.
 
-If trading liquidity is high enough, market dynamics could remove the need for managed lists of [royalties-compliant programs](https://www.notion.so/INTERNAL-MIP-1-A-new-asset-class-to-enforce-creator-royalties-728fd05ef7274b06b86479b5f92a2366). For example if a marketplace tried to evade creator royalties by listing an NFT at an abnormally low price in an open liquidity market (and then settle the transaction for a different price outside of the royalty-enforced system), the asset would quickly get sniped and cancel out any potential gains for the malicious marketplace.
+If trading liquidity is high enough, market dynamics could remove the need for managed lists of royalties-compliant programs. For example if a marketplace tried to evade creator royalties by listing an NFT at an abnormally low price in an open liquidity market (and then settle the transaction for a different price outside of the royalty-enforced system), the asset would quickly get sniped and cancel out any potential gains for the malicious marketplace.
 
 > *Note: This would be an opt-in feature for marketplaces, creators and collectors.*
 
