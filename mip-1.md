@@ -423,9 +423,7 @@ Transaction(Instruction(instruction_data, accounts),signers: [payer, delegate]))
 
 # `Identity` NFTs & wallet linking
 
-> 📌 This section describes a new asset class that would be introduced to enable free transfers between two wallets owned by the same person. This scope of work will not be included in the initial release of `ProgrammableNonFungible` as the solution to creator royalties enforcement.
-
-Metaplex’s wallet linking solution may come to market later depending on ecosystem demand and feedback from creators and collectors. Initially, wallet-to-wallet transfers will not be restricted.
+> 📌 This section describes a new asset class that would be introduced to enable free transfers between two wallets owned by the same person. This scope of work will not be included in the initial release of `ProgrammableNonFungible` as the solution to creator royalties enforcement. Metaplex’s wallet linking solution may come to market later depending on ecosystem demand and feedback from creators and collectors. Initially, wallet-to-wallet transfers will not be restricted.
 
 ## Trade-offs between royalties enforcement and freely transferrable tokens
 
