@@ -1,9 +1,4 @@
-# [INTERNAL][MIP-1r4] A new asset class to enforce creator royalties
-
-Created time: November 22, 2022 2:11 PM
-Status: Draft
-
-- **Table of contents**
+# [MIP-1] A new asset class to enforce creator royalties
 
 ---
 
@@ -32,10 +27,7 @@ This is how it’ll work at a high-level:
 - Creators can configure the list of trusted programs (i.e. marketplaces) that may transfer the NFTs they create.
 - Mint, burn, transfer, delegate, and revoke instructions to be sent to Token Metadata Program instead of SPL Token.
 
-<aside>
-📌 For more details about this new asset class outside of the royalties enforcement context, see MIP-2
-
-</aside>
+> 📌 For more details about this new asset class outside of the royalties enforcement context, see MIP-2
 
 > *Note: The existing `NonFungible` asset class will continue to be supported and projects/creators will now be able to choose the asset class that best fits their use case.*
 > 
@@ -53,10 +45,7 @@ Some of the main benefits of Metaplex’s new asset class are:
 - Collections will be able to migrate in full and all at once — all NFTs in a collection will be of the same asset type, no fragmented collection, no duplicate NFTs or accounts.
 - Mint addresses will not need to change, which will ensure stability and compatibility with existing marketplaces and other web3 services (e.g. token and rarity tracking systems).
 
-<aside>
-📌 Creators who don’t want to migrate to the new asset class will have the option to remain on the existing `NonFungible` standard. In that case, none of the NFTs in their collection will be eligible for migration.
-
-</aside>
+> 📌 Creators who don’t want to migrate to the new asset class will have the option to remain on the existing `NonFungible` standard. In that case, none of the NFTs in their collection will be eligible for migration.
 
 ## Other considerations
 
@@ -65,10 +54,7 @@ Some of the main benefits of Metaplex’s new asset class are:
 - Self-transfers will be exempt from royalties payments by relying on a new mechanism to link multiple wallets owned by the same person (via Identity NFTs). This wallet linking solution will come to market after the initial release, wallet-to-wallet transfers will not be restricted to start.
 - Indexing of the new asset class will be ensured via Metaplex’s Read RPC extension used by wallets and RPC providers (already integrated by GenesysGo, Triton, Solflare, with Phantom, Alchemy, QuickNode coming in Q1 2023).
 
-<aside>
-📌 Based on future demand and ecosystem feedback, we may create additional protocol-level verification and distribution of royalties payments.
-
-</aside>
+> 📌 Based on future demand and ecosystem feedback, we may create additional protocol-level verification and distribution of royalties payments.
 
 ## Rollout schedule
 
@@ -439,12 +425,9 @@ Transaction(Instruction(instruction_data, accounts),signers: [payer, delegate]))
 
 # `Identity` NFTs & wallet linking
 
-<aside>
-📌 This section describes a new asset class that would be introduced to enable free transfers between two wallets owned by the same person. This scope of work will not be included in the initial release of `ProgrammableNonFungible` as the solution to creator royalties enforcement.
+> 📌 This section describes a new asset class that would be introduced to enable free transfers between two wallets owned by the same person. This scope of work will not be included in the initial release of `ProgrammableNonFungible` as the solution to creator royalties enforcement.
 
 Metaplex’s wallet linking solution may come to market later depending on ecosystem demand and feedback from creators and collectors. Initially, wallet-to-wallet transfers will not be restricted.
-
-</aside>
 
 ## Trade-offs between royalties enforcement and freely transferrable tokens
 
@@ -537,10 +520,7 @@ Creators who choose to migrate to the new `ProgrammableNonFungible` asset class 
     2. There would be specific Protocol-level guardrails or vote requirements to be met to ensure the current NFT holders have a fair chance at voting.
     3. Prerequisite for vote-based migration: Using Metaplex’s sized collections standard would be required so the smart contracts can calculate the quorum and passing votes percentages based on the number of NFTs in the collection.
 
-<aside>
-📌 Creators who don’t want to migrate to the new asset class will have the option to remain on the existing `NonFungible` standard. In that case, none of the NFTs in their collection will be eligible for migration.
-
-</aside>
+> 📌 Creators who don’t want to migrate to the new asset class will have the option to remain on the existing `NonFungible` standard. In that case, none of the NFTs in their collection will be eligible for migration.
 
 ## Example of a creator-led vote
 
@@ -608,7 +588,6 @@ As part of the new Sale Delegate instruction, Metaplex could add ways to allow a
 If trading liquidity is high enough, market dynamics could remove the need for managed lists of [royalties-compliant programs](https://www.notion.so/INTERNAL-MIP-1-A-new-asset-class-to-enforce-creator-royalties-728fd05ef7274b06b86479b5f92a2366). For example if a marketplace tried to evade creator royalties by listing an NFT at an abnormally low price in an open liquidity market (and then settle the transaction for a different price outside of the royalty-enforced system), the asset would quickly get sniped and cancel out any potential gains for the malicious marketplace.
 
 > *Note: This would be an opt-in feature for marketplaces, creators and collectors.*
-> 
 
 ---
 
