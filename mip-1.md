@@ -27,7 +27,7 @@ This is how it’ll work at a high-level:
 - Creators can configure the list of trusted programs (i.e. marketplaces) that may transfer the NFTs they create.
 - Mint, burn, transfer, delegate, and revoke instructions to be sent to Token Metadata Program instead of SPL Token.
 
-> 📌 For more details about this new asset class outside of the royalties enforcement context, see MIP-2
+> 📌 For more details about this new asset class outside of the royalties enforcement context, see [MIP-2](https://github.com/metaplex-foundation/mip/blob/main/mip-2.md).
 
 > *Note: The existing `NonFungible` asset class will continue to be supported and projects/creators will now be able to choose the asset class that best fits their use case.*
 > 
@@ -93,7 +93,7 @@ The creation of a new asset class is the most viable solution to provide NFT cre
 
 Metaplex will build a new asset class that allows for flexible configuration of various lifecycle rules, including certain transfer restrictions. The first application of this new asset class will be creator royalties enforcement.
 
-For more technical details about the new generalized asset class and its future applications, you can refer to **MIP-2**.
+For more technical details about the new generalized asset class and its future applications, you can refer to [MIP-2](https://github.com/metaplex-foundation/mip/blob/main/mip-2.md).
 
 ## The new `ProgrammableNonFungible` asset class applied to royalties enforcement
 
@@ -106,7 +106,7 @@ This is an overview of how the new asset class will be used to enforce royalties
 - Transfers to and from the `UpdateAuthority` of the NFT or collection (typically the creator) can be exempt from royalties payments if the creator allows that as a rule.
 - Mint, burn, transfer, delegate, and revoke instructions to be sent to Token Metadata Program instead of SPL Token so the rule sets can be applied.
 
-For more information about custom and/or additional behaviors and rules (incl. third-party rules), see **MIP-2**. Creators may choose to use other rule sets, however their behavior are not guaranteed to be royalties-compliant.
+For more information about custom and/or additional behaviors and rules (incl. third-party rules), see [MIP-2](https://github.com/metaplex-foundation/mip/blob/main/mip-2.md). Creators may choose to use other rule sets, however their behavior are not guaranteed to be royalties-compliant.
 
 > **Note on self-transfers**
 *Since the rules required to enforce royalties payments would restrict transfers to certain programs and use cases, an exception might need to be carved out to accommodate for self-transfers (i.e. moving an NFT between two wallets a same person owns). We are exploring a wallet-linking solution to solve for this use case. A new, non-transferrable Identity NFT that allows wallet linking could ensure that a person owning multiple wallets transfer NFTs between those wallets with minimal friction (more details below).*
@@ -133,7 +133,7 @@ At a high-level, the new `ProgrammableNonFungible` asset class allows for flexib
 
 ### How to detect a `ProgrammableNonFungible` that implements a royalty enforcement
 
-Currently NFTs on Solana have a Token Standard and a Major Specification version. We can use the combination of `SpecificationVersion` and `TokenStandard` to create an `interface` or `asset class`. More information can be found in MIP-2
+Currently NFTs on Solana have a Token Standard and a Major Specification version. We can use the combination of `SpecificationVersion` and `TokenStandard` to create an `interface` or `asset class`. More information can be found in [MIP-2](https://github.com/metaplex-foundation/mip/blob/main/mip-2.md).
 
 ```rust
 #[repr(C)]
