@@ -73,7 +73,7 @@ On the back of cascading announcements of zero royalty marketplaces for traders,
 
 **Our previous announcement on royalties:**
 
-[**Royalties and the Future of Creator Monetization [Public]**](https://www.notion.so/Royalties-and-the-Future-of-Creator-Monetization-Public-5fdcd1b163084b9b87b2e90090129d22) 
+[Royalties and the Future of Creator Monetization [Public]](https://www.notion.so/Royalties-and-the-Future-of-Creator-Monetization-Public-5fdcd1b163084b9b87b2e90090129d22) 
 
 ---
 
@@ -424,7 +424,7 @@ Transaction(Instruction(instruction_data, accounts),signers: [payer, delegate]))
 
 # `Identity` NFTs & wallet linking
 
-> 📌 This scope of work will not be included in the initial release of `ProgrammableNonFungible` as the solution to creator royalties enforcement. This section describes a new asset class that would be introduced to enable free transfers between two wallets owned by the same person. Metaplex’s wallet linking solution may come to market later depending on ecosystem demand and feedback from creators and collectors. Initially, wallet-to-wallet transfers will not be restricted.
+> 📌 This scope of work will not be included in the initial release of `ProgrammableNonFungible` as the solution to creator royalties enforcement, Initially, wallet-to-wallet transfers will not be restricted. This section describes a new asset class that would be introduced to enable free transfers between two wallets owned by the same person. Metaplex’s wallet linking solution may come to market later depending on ecosystem demand and feedback from creators and collectors.
 
 ## Trade-offs between royalties enforcement and freely transferrable tokens
 
