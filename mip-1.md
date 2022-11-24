@@ -63,6 +63,7 @@ Some of the main benefits of Metaplex’s new asset class are:
 3. Auction house support [December]
 4. Publicly available for migration [Early January]
 5. Candy machine support [January]
+6. Wallet linking [TBD]
 
 ---
 
