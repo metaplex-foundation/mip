@@ -32,7 +32,17 @@ Different asset classes may have different `Actions` that are available to them.
 
 ### Delegate roles
 
-The `Delegate` action has roles which represent the current owner’s intent when delegating a token. Rules may be applied based on the delegate role in order to provide different behaviors 
+The `Delegate` action has roles which represent the current owner’s intent when delegating a token. Rules may be applied based on the delegate role in order to provide different behaviors.
+These allow delegation of rights. 
+
+Example Delegate Roles:
+
+Collection -> can manage items to a collection
+Use -> can use the token on behalf of a owner
+Sale -> can trade the token on behalf of the owner 
+Utility -> can freeze, thaw and transfer the token under certain circumstandes
+MetadataAuthority -> can change metadata
+
 
 ### RuleSet
 
