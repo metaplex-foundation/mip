@@ -128,9 +128,9 @@ Some of the main benefits of Metaplex’s new asset class are:
 
 ---
 
-# Using `ProgrammableNonFungible` **assets to enforce royalties `[WIP]`**
+# Using `ProgrammableNonFungible` assets to enforce royalties
 
-At a high-level, the new `ProgrammableNonFungible` asset class allows for flexible configuration of rules and behaviors related to various lifecycle events (e.g. transfer, delegate, burn, etc.). The first application of the new `ProgrammableNonFungible` ****asset class is royalties enforcement.
+At a high-level, the new `ProgrammableNonFungible` asset class allows for flexible configuration of rules and behaviors related to various lifecycle events (e.g. transfer, delegate, burn, etc.). The first application of the new `ProgrammableNonFungible` asset class is royalties enforcement.
 
 ### How to detect a `ProgrammableNonFungible` that implements a royalty enforcement
 
@@ -424,7 +424,7 @@ Transaction(Instruction(instruction_data, accounts),signers: [payer, delegate]))
 
 # `Identity` NFTs & wallet linking
 
-> 📌 This section describes a new asset class that would be introduced to enable free transfers between two wallets owned by the same person. This scope of work will not be included in the initial release of `ProgrammableNonFungible` as the solution to creator royalties enforcement. Metaplex’s wallet linking solution may come to market later depending on ecosystem demand and feedback from creators and collectors. Initially, wallet-to-wallet transfers will not be restricted.
+> 📌 This scope of work will not be included in the initial release of `ProgrammableNonFungible` as the solution to creator royalties enforcement. This section describes a new asset class that would be introduced to enable free transfers between two wallets owned by the same person. Metaplex’s wallet linking solution may come to market later depending on ecosystem demand and feedback from creators and collectors. Initially, wallet-to-wallet transfers will not be restricted.
 
 ## Trade-offs between royalties enforcement and freely transferrable tokens
 
