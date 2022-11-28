@@ -3,6 +3,8 @@
 Created time: November 18, 2022 11:30 AM
 Status: Draft
 
+Work In progress public repo: https://github.com/metaplex-foundation/token-authorization-rules
+
 # Summary
 
 Solana has seen rapid growth in the number of NFT minted over the last 12 months with the most popular use case being the Profile Picture (PFP) NFTs. Many utility use cases have developed over time, led by forward thinking projects and games however as a result, there has been a fragmentation and stagnation in the types of on-chain utility possible due to the ecosystem adoption challenges.
