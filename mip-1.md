@@ -451,10 +451,7 @@ NonFungible,        // This is a master edition
 FungibleAsset,      // A token with metadata that can also have attributes
 Fungible,           // A token with simple metadata
 NonFungibleEdition, // This is a limited edition
-
-ProgrammableNonFungible,
-
-NonTransferrable,
+ProgrammableNonFungible, // Rules-constrained assets
 
 **Identity**
 }
