@@ -2,6 +2,8 @@
 
 📣 **Creators can now start the royalties enforcement upgrade process for existing collections at [royalties.metaplex.com](http://royalties.metaplex.com/) (beta).**
 
+**[Integration guide for developers](https://github.com/metaplex-foundation/metaplex-program-library/blob/feat/programmable-asset/token-metadata/program/ProgrammableNFTGuide.md) | [Royalties FAQs](https://metaplex.notion.site/metaplex/Public-FAQ-A-new-asset-class-to-enforce-royalties-4662d26ee8af451faeb16d6a0534cb70)**
+
 ## Overview
 
 Metaplex is building a new asset class, Programmable NFTs, that allows for flexible configuration of various lifecycle rules, including certain transfer restrictions that can be used by creators to enforce royalties. The new asset class is called Programmable NFTs.
