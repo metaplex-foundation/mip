@@ -70,8 +70,6 @@ If a utility program is not sending instructions to Token Metadata or SPL-Token 
 
 Otherwise, if a utility program (e.g. staking) wants to mint, transfer, escrow, delegate, revoke, freeze, thaw or burn Programmable NFTs, it will need to call the new instructions in Token Metadata, as specified in the developer doc above.
 
-More context on how escrow-less utility programs can interact with Programmable NFTs is coming next week.
-
 ### Immutable escrow-based programs
 
 NFTs that are being held in immutable escrow-based programs may not be recoverable post-migration since they will not be able to update to new instructions. *Please communicate with your community that they should withdraw NFTs from immutable escrow-based programs ahead of the migration completing.*
