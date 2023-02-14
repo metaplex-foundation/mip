@@ -115,7 +115,7 @@ This new program will be based on Auction House and only include the thinnest la
 2. ✅ Developer integration guide [on [GitHub](https://github.com/metaplex-foundation/metaplex-program-library/blob/feat/programmable-asset/token-metadata/program/ProgrammableNFTGuide.md)]
 3. ✅ No-code migration tool for creators to start the upgrade process at [royalties.metaplex.com](http://royalties.metaplex.com) [Jan 6]
 4. ✅ Devnet programs available for integration by marketplaces, wallets, dApps [Jan 12]
-5. 🗓 Beta launch of programmable NFTs with support for royalties enforcement. Functionality of asset class may change during this period based on feedback [Est. Jan 27] (pending sufficient ecosystem integrations)
+5. ✅ Beta launch of programmable NFTs with support for royalties enforcement. Functionality of asset class may change during this period based on feedback [Feb 6]
 6. 🗓 Candy Machine and Auction House support [date to be confirmed]
 7. 🗓 Built-in transaction layer with shared liquidity [date to be confirmed]
 8. 🗓 Upgrade window for existing NFT collections closes [Apr 20]
