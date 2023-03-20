@@ -116,7 +116,7 @@ This new program will be based on Auction House and only include the thinnest la
 3. ✅ No-code migration tool for creators to start the upgrade process at [royalties.metaplex.com](http://royalties.metaplex.com) [Jan 6]
 4. ✅ Devnet programs available for integration by marketplaces, wallets, dApps [Jan 12]
 5. ✅ Beta launch of programmable NFTs with support for royalties enforcement. Functionality of asset class may change during this period based on feedback [Feb 6]
-6. 🗓 Candy Machine and Auction House support [date to be confirmed]
+6. ✅ Candy Machine and Auction House support
 7. 🗓 Built-in transaction layer with shared liquidity [date to be confirmed]
 8. 🗓 Upgrade window for existing NFT collections closes [Apr 20]
 9. 🗓 Programmable NFTs come out of beta [Apr 20]
