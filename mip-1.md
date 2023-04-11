@@ -96,7 +96,7 @@ Metaplex will provide a new, built-in transaction layer with shared liquidity so
 
 It will be open-source and free to use by any developer who integrates with it, addressing the concerns around hypothetical marketplace exclusivity deals and other barriers of entry for new developers.
 
-This new program will be based on Auction House and only include the thinnest layer of features to enable NFT trading (i.e. only listings and bids — no AH instances, treasuries, configs). We will share more details about this new program as soon as possible by publishing a new MIP.
+This new program will be based on Auction House and only include the thinnest layer of features to enable NFT trading (i.e. only listings and bids — no AH instances, treasuries, configs). When introduced, collections migrated from NonFungible will have irrevocable access to this transaction layer. pNFTs that are newly minted will have the option to add the liquidity layer or not, and can add the liquidity layer in a way that is irrevocable. We will share more details about this new program as soon as possible by publishing a new MIP.
 
 ## Other considerations
 
@@ -118,8 +118,8 @@ This new program will be based on Auction House and only include the thinnest la
 5. ✅ Beta launch of programmable NFTs with support for royalties enforcement. Functionality of asset class may change during this period based on feedback [Feb 6]
 6. ✅ Candy Machine and Auction House support
 7. 🗓 Built-in transaction layer with shared liquidity [date to be confirmed]
-8. 🗓 Upgrade window for existing NFT collections closes [Apr 20]
-9. 🗓 Programmable NFTs come out of beta [Apr 20]
+8. 🗓 Upgrade window for existing NFT collections closes [May 10th 9:00PT]
+9. 🗓 Last date to finalize migration [May 31]
 
 ## FAQs
 
