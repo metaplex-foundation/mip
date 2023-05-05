@@ -76,3 +76,6 @@ In the case of Sized Collections deprecation, there are several possible options
 - What other technical alternatives should the Metaplex Foundation consider?
 - What technical implementation constraints does your project have relating to the sized collection feature?
 - Any other pertinent input?
+
+# Discussion
+https://github.com/metaplex-foundation/mip/discussions/6
