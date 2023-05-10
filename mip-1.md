@@ -118,8 +118,8 @@ This new program will be based on Auction House and only include the thinnest la
 5. ✅ Beta launch of programmable NFTs with support for royalties enforcement. Functionality of asset class may change during this period based on feedback [Feb 6]
 6. ✅ Candy Machine and Auction House support
 7. 🗓 Built-in transaction layer with shared liquidity [date to be confirmed]
-8. 🗓 Upgrade window for existing NFT collections closes [May 10th 9:00PT]
-9. 🗓 Last date to finalize migration [May 31]
+8. 🗓 Upgrade window for existing NFT collections closes [May 10th 10:00PM PT]
+9. 🗓 Last date to finalize migration [May 31 10:00PM PT]
 
 ## FAQs
 
