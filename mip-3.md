@@ -79,3 +79,13 @@ In the case of Sized Collections deprecation, there are several possible options
 
 # Discussion
 https://github.com/metaplex-foundation/mip/discussions/6
+
+# Decision
+
+After soliciting community feedback, the usage of Sized Collections for NFTs has been found to be minimal. The primary use cases are related to collection governance, which is not reliable due to the caveats outlined below. As such the proposal to remove Sized Collection is approved and the feature will be deprecated and eventually removed from the Token Metadata program.
+
+## Unreliability as a Governance Mechanic
+
+Sized Collections have been utilized to provide a voting mechanism to establish the weight that each NFT in the collection should have when voting on proposals. However, there is no reason why this mechanism would be any more reliable than setting the vote weight manually on the SPL-Governance instance. A creator who holds update authority over the collection and collection NFT has permission to add or remove from a collection at will. This means that NFT vote weight can be swayed arbitrarily by a malicious creator. Additionally, the collection field lies outside of the data struct and is therefore not covered by immutability. This allows a creator to modify collection sizes even on immutable NFTs.
+
+Having collection size be set manually in the governance instance, or even set via governance proposal, is a more reliable method of assuring proper NFT vote weight than using Sized Collections.
