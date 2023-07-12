@@ -15,7 +15,7 @@
         * No hindering the ability to achieve the timeline for rendering Token Metadata immutable 
 3. **Implementation Designation.** At the end of the community feedback period, the Metaplex Foundation will designate whether the proposed MIP – if passed – will be implemented by the Foundation itself or whether the community will be called upon to implement it. 
 4. **Voting Period.** Following the community feedback period, the Metaplex Foundation will open the voting period. Voting will be based on MPLX ownership, meaning that one MPLX equals one vote. The Metaplex Foundation will specify the minimum number of total votes that must be submitted for the vote to count. Approval requires (a) >66% of votes are “Yes” votes, and (b) total votes cast exceeds the specified minimum number of votes.
-5.** MIP Implementation. **
+5. **MIP Implementation.**
     * Foundation Implementation. If the approved MIP was designated for Foundation implementation, the Metaplex Foundation will publish a development timeline and then exercise reasonable efforts to achieve its proposed timeline. Core software development will be done in public in source available repos, as is currently the case. 
     * Community Implementation. If the approved MIP was designated for Community implementation, the Metaplex Foundation will request bids from the community for implementation. 
         * The Metaplex Foundation will review all bids and select a winning bid.
