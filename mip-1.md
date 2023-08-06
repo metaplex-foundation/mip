@@ -2,7 +2,7 @@
 
 📣 **Creators can now start the royalties enforcement upgrade process for existing collections at [royalties.metaplex.com](http://royalties.metaplex.com/) (beta).**
 
-**[Integration guide for developers](https://github.com/metaplex-foundation/metaplex-program-library/blob/master/token-metadata/program/ProgrammableNFTGuide.md) | [Royalties FAQs](https://metaplex.notion.site/metaplex/Public-FAQ-A-new-asset-class-to-enforce-royalties-4662d26ee8af451faeb16d6a0534cb70)**
+**[Integration guide for developers](https://github.com/metaplex-foundation/mpl-token-metadata/blob/main/programs/token-metadata/program/ProgrammableNFTGuide.md) | [Royalties FAQs](https://metaplex.notion.site/metaplex/Public-FAQ-A-new-asset-class-to-enforce-royalties-4662d26ee8af451faeb16d6a0534cb70)**
 
 ## Overview
 
@@ -51,7 +51,7 @@ After the 90-day upgrade window, creators will be able to choose to mint new ass
 
 ***Developers, marketplaces, wallets and utility programs that wish to support programmable NFTs will have to integrate with new instructions.*** We’ve put together a technical guide that includes a new set of unified instructions that will work across asset classes as well as details on each instruction + test code. 
 
-[Programmable NFTs guide](https://github.com/metaplex-foundation/metaplex-program-library/blob/master/token-metadata/program/ProgrammableNFTGuide.md) | [Token Auth Rules program](https://github.com/metaplex-foundation/mpl-token-auth-rules/blob/main/README.md)
+[Programmable NFTs guide](https://github.com/metaplex-foundation/mpl-token-metadata/blob/main/programs/token-metadata/program/ProgrammableNFTGuide.md) | [Token Auth Rules program](https://github.com/metaplex-foundation/mpl-token-auth-rules/blob/main/README.md)
 
 Feel free to leave your questions and comments directly on GitHub.
 
@@ -112,7 +112,7 @@ This new program will be based on Auction House and only include the thinnest la
 ## Rollout schedule
 
 1. ✅ Draft program interfaces available for public review [December]
-2. ✅ Developer integration guide [on [GitHub](https://github.com/metaplex-foundation/metaplex-program-library/blob/feat/programmable-asset/token-metadata/program/ProgrammableNFTGuide.md)]
+2. ✅ Developer integration guide [on [GitHub](https://github.com/metaplex-foundation/mpl-token-metadata/blob/main/programs/token-metadata/program/ProgrammableNFTGuide.md)]
 3. ✅ No-code migration tool for creators to start the upgrade process at [royalties.metaplex.com](http://royalties.metaplex.com) [Jan 6]
 4. ✅ Devnet programs available for integration by marketplaces, wallets, dApps [Jan 12]
 5. ✅ Beta launch of programmable NFTs with support for royalties enforcement. Functionality of asset class may change during this period based on feedback [Feb 6]
