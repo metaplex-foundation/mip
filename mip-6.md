@@ -18,3 +18,6 @@ It is Metaplex’s proposal that the Uses feature of NFTs be deprecated and even
 - How would this proposal affect your project?
 - What other technical alternatives should the Metaplex Foundation consider?
 - Any other pertinent input?
+
+# Discussion
+https://github.com/metaplex-foundation/mip/discussions/27
