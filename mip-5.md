@@ -28,7 +28,7 @@
 This procedure will apply to proposed changes to: (1) Token Metadata before update authority for Token Metadata is transferred to security firms and it is made immutable; and (2) the rest of the Metaplex Program Library on an ongoing basis. 
 
 The Metaplex Program Library includes the programs found here: \
-https://github.com/metaplex-foundation/metaplex-program-library#metaplex-contracts
+(https://developers.metaplex.com/programs-and-tools)
 
 The Metaplex Foundation’s goal with this procedure is to provide a workable framework for community contribution and governance for the Metaplex Program Library. Community governance is a fairly new concept that is both difficult and ripe for experimentation. We expect to learn as we go and to make adjustments based on both our observations and community feedback.  
 
