@@ -49,7 +49,7 @@ The process for proposing Community MIPs may evolve over time as we learn from o
 
 <h2>Community Feedback & Initial Review</h2>
 
-Each Community MIP proposal will trigger a 21 day “Community Feedback Period”, during which anyone may comment on the Community MIP in the Repo. This will provide time for the community to voice its opinion on each Community MIP before a DAO vote is held. We encourage Original Proposers to indicate in the comments whether they are ready, willing and able to implement the proposed MIP themselves.
+Each Community MIP proposal will trigger a 14 day “Community Feedback Period”, during which anyone may comment on the Community MIP in the Repo. This will provide time for the community to voice its opinion on each Community MIP before a DAO vote is held. We encourage Original Proposers to indicate in the comments whether they are ready, willing and able to implement the proposed MIP themselves.
 
 During the Community Feedback Period, the Metaplex Foundation will review the Community MIP to screen out ones that are spam, made in bad faith, lack critical details, or would violate any of the following hard requirements (collectively, “Hard Requirements”):
 
@@ -73,7 +73,7 @@ The Original Proposer may withdraw the Community MIP at any time prior to the en
 
 <h2>Implementation Designation</h2>
 
-At the end of the 21-day Community Feedback Period, a Community MIP will convert to an officially numbered MIP (e.g., MIP-72), unless it has been screened out. 
+At the end of the 14-day Community Feedback Period, a Community MIP will convert to an officially numbered MIP (e.g., MIP-72), unless it has been screened out. 
 
 For each officially numbered MIP, the Metaplex Foundation will designate whether the MIP – if passed – will be implemented by the Foundation itself (“Foundation Implementation Designation”) or whether the community will be called upon to implement it (“Community Implementation Designation”). 
 
