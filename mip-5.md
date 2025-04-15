@@ -41,7 +41,7 @@ We hope to receive community MIP submissions that would do some or all of the fo
 
 <h2>Proposals</h2>
 
-Any MPLX holder (the “Original Proposer”) may propose a “Community MIP”  to the Metaplex source available code repository (currently Github, located here: ([https://github.com/metaplex-foundation/mip/](https://github.com/metaplex-foundation/mip/)) (the “Repo”) by (1) proving ownership of 1000 $MPLX (subject to revision by Metaplex Foundation based on the market price of MPLX); and (2) paying 10 USDC on the Metaplex governance website, located here: (https://mip.metaplex.com). 
+Any MPLX holder (the “Original Proposer”) may propose a “Community MIP”  to the Metaplex source available code repository (currently Github, located here: ([https://github.com/metaplex-foundation/mip/](https://github.com/metaplex-foundation/mip/)) (the “Repo”) by (1) proving ownership of 200 $MPLX (subject to revision by Metaplex Foundation based on the market price of MPLX); and (2) paying 10 USDC on the Metaplex governance website, located here: (https://mip.metaplex.com). 
 
 If a Community MIP submission is legitimate (i.e., not spam, not made in bad faith) then Metaplex Foundation will refund the 10 USDC payment to the Original Proposer. The reason we are requiring a 10 USDC payment for each submission is to prevent being spammed. We expect to receive a large number of submissions and are committing to review all of them. We are open to changing the submission requirements to find the right balance to prevent spam but also not discourage legitimate submissions. 
 
