@@ -1,6 +1,6 @@
 <h1>Procedure for Metaplex Improvement Proposals (“MIPs”) for the Metaplex Program Library</h1>
 
-**TDLR: The Metaplex Foundation will implement the following procedure for MIPs for: (1) Token Metadata before it is made immutable; and (2) for the rest of the Metaplex Program Library on an ongoing basis:**
+**TLDR: The Metaplex Foundation will implement the following procedure for MIPs for: (1) Token Metadata before it is made immutable; and (2) for the rest of the Metaplex Program Library on an ongoing basis:**
 1. **Proposals.** Anyone may propose a MIP by: (1) proving ownership of 200 $MPLX; and (2) paying 10 USDC as a means to reduce spam (the Metaplex Foundation will refund the USDC for submissions made in good faith).
 2. **Community Feedback Period & Initial Review.** The community will be able to provide feedback on proposed MIPs on the Metaplex Foundation Github Repo. 
     * During the community feedback period, the Metaplex Foundation will screen out spam, proposals that lack critical details, and those that would violate the following hard requirements:
