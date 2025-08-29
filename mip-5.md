@@ -14,7 +14,7 @@
         * No requirement for new NFT collections to be tradeable on an open liquidity layer if an open liquidity layer is built
         * No hindering the ability to achieve the timeline for rendering Token Metadata immutable 
 3. **Implementation Designation.** At the end of the community feedback period, the Metaplex Foundation will designate whether the proposed MIP – if passed – will be implemented by the Foundation itself or whether the community will be called upon to implement it. 
-4. **Voting Period.** Following the community feedback period, the Metaplex Foundation will open the voting period. Voting will be based on MPLX ownership, meaning that one MPLX equals one vote. The Metaplex Foundation will specify the minimum number of total votes that must be submitted for the vote to count. Approval requires (a) >66% of votes are “Yes” votes, and (b) total votes cast exceeds the specified minimum number of votes.
+4. **Voting Period.** Following the community feedback period, the Metaplex Foundation will open the voting period. Voting will be based on MPLX ownership, meaning that one MPLX equals one vote. The Metaplex Foundation will specify the minimum number of total votes that must be submitted for the vote to count. Approval requires (a) >50% of votes are “Yes” votes, and (b) total "Yes" votes cast exceeds the specified minimum number of votes.
 5. **MIP Implementation.**
     * Foundation Implementation. If the approved MIP was designated for Foundation implementation, the Metaplex Foundation will publish a development timeline and then exercise reasonable efforts to achieve its proposed timeline. Core software development will be done in public in source available repos, as is currently the case. 
     * Community Implementation. If the approved MIP was designated for Community implementation, the Metaplex Foundation will request bids from the community for implementation. 
@@ -85,7 +85,7 @@ Within 7 days after the Community Feedback Period closes for a MIP, the Metaplex
 
 When the Metaplex Foundation opens the Voting Period, it will specify the minimum number of total votes that must be submitted for the vote to count (the “Voting Threshold”).  Voting will be based on MPLX ownership, meaning that one MPLX equals one vote. The Metaplex Foundation will announce via Twitter (@MetaplexFndn) and on the Metaplex Discord channel when a Voting Period is beginning and direct the community to where it can cast votes on the Metaplex DAO. The voting mechanics may change in the future as we learn from experience.
 
-Once the Voting Period closes, the MIP will either pass and convert to an “Approved MIP,” or will fail and convert to a “Rejected MIP.”  The MIP will pass and convert to an Approved MIP if (a) >66% of votes are “Yes” votes, and (b) total votes cast exceed the Voting Threshold.  If either condition is not met, the MIP shall fail and convert to a Rejected MIP.  
+Once the Voting Period closes, the MIP will either pass and convert to an “Approved MIP,” or will fail and convert to a “Rejected MIP.”  The MIP will pass and convert to an Approved MIP if (a) >50% of votes are “Yes” votes, and (b) total "Yes" votes cast exceed the Voting Threshold.  If either condition is not met, the MIP shall fail and convert to a Rejected MIP.  
 
 <h2>Foundation Implementation</h2>
 
@@ -149,7 +149,7 @@ Community MIPs may be viewed and discussed on the Repo. Decisions from the Metap
 
 4. What parameters constitute acceptance or rejection of a MIP?
 
-MIPs shall pass and convert to an Approved MIP if (a) >66% of votes are “Yes” votes, and (b) total votes exceed the Voting Threshold.  A MIP shall fail and convert to a Rejected MIP under all other circumstances.
+MIPs shall pass and convert to an Approved MIP if (a) >50% of votes are “Yes” votes, and (b) total "Yes" votes exceed the Voting Threshold.  A MIP shall fail and convert to a Rejected MIP under all other circumstances.
 
 5. How is “rough consensus” documented within proposals after they have been made available for public comment?
 
