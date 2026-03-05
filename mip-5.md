@@ -59,7 +59,7 @@ The Original Proposer may withdraw the Community MIP at any time prior to the en
 
 <h2>Implementation Designation</h2>
 
-At the end of the 14-day Community Feedback Period, a Community MIP will convert to an officially numbered MIP (e.g., MIP-72), unless it has been screened out. 
+At the end of the 14-day Community Feedback Period, a Community MIP will convert to an officially numbered MIP (e.g., MIP-072), unless it has been screened out. 
 
 For each officially numbered MIP, the Metaplex Foundation will designate whether the MIP – if passed – will be implemented by the Foundation itself (“Foundation Implementation Designation”) or whether the community will be called upon to implement it (“Community Implementation Designation”). 
 
@@ -67,7 +67,7 @@ This decision will be based largely on whether the Metaplex Foundation has the a
 
 <h2>Voting Period</h2>
 
-Within 7 days after the Community Feedback Period closes for a MIP, the Metaplex Foundation will publish finalized language for the MIP based upon the Community MIP submission. This will include whether the MIP received a Foundation or Community Implementation Designation. The Metaplex Foundation will then open the “Voting Period” which shall remain open for 14 days.  
+Within 7 days after the Community Feedback Period closes for a MIP, the Metaplex Foundation will publish finalized language for the MIP based upon the Community MIP submission. This will include whether the MIP received a Foundation or Community Implementation Designation. The Metaplex Foundation will then open the “Voting Period” which shall remain open for 5 days.  
 
 When the Metaplex Foundation opens the Voting Period, it will specify the minimum number of total votes that must be submitted for the vote to count (the “Voting Threshold”).  Voting will be based on MPLX ownership, meaning that one MPLX equals one vote. The Metaplex Foundation will announce via Twitter (@MetaplexFndn) and on the Metaplex Discord channel when a Voting Period is beginning and direct the community to where it can cast votes on the Metaplex DAO. The voting mechanics may change in the future as we learn from experience.
 
